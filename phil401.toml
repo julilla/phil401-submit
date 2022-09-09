@@ -1,0 +1,5 @@
+class = "CSCI 2390"
+staff = ["malte@cs.brown.edu"]
+template_dir = "/home/malte/csci-2390-submit/templates"
+resource_dir = "/home/malte/csci-2390-submit/resources"
+secret = "<SECRET>"

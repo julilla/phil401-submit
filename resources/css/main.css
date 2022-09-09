@@ -1,0 +1,59 @@
+.navbar-dark {
+  background-color: #4e3629;
+  font-size: 1em;
+  padding: 0;
+}
+
+.navbar-dark .navbar-brand {
+  background-color: #ed1c24;
+  color: white;
+  padding: 0.5rem;
+}
+
+.navbar-dark .active {
+  background-color: #3e2619;
+}
+
+.navbar-dark .nav-item {
+  padding: 0.2rem;
+}
+
+.navbar-dark .navbar-brand:hover,
+.navbar-dark .navbar-brand:focus {
+  background-color: #ed1c24;
+}
+
+.navbar-dark .navbar-nav > li > a {
+  color: white;
+}
+
+.navbar-dark .navbar-nav .active .nav-link {
+  color: #ffc72c;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link:focus {
+  color: #ffc72c;
+}
+
+.navbar-right {
+  /*background-color: #ed1c24;*/
+  background-color: #98A4AE;
+  padding: 0.7rem;
+}
+
+.navbar-dark .navbar-right > li > a:hover,
+.navbar-dark .navbar-right > li > a:focus {
+  color: white;
+}
+
+div.responsebox {
+  margin: 1pc 4% 0pc 4%;
+  padding: 0.5pc 0.5pc 0.5pc 0.5pc;
+  background-color: #e0e0ff;
+  border: 1px dashed red;
+}
+
+pre.responsepre {
+  white-space: pre-wrap;
+}

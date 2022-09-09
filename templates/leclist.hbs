@@ -1,0 +1,20 @@
+{{#*inline "page"}}
+  <h2>List of course meetings</h2>
+
+  <ol>
+  {{#each lectures}}
+    <li>
+      <a href="/questions/{{{ this.id }}}">{{{ this.label }}}</a> ({{{ this.num_answered }}}/{{{ this.num_qs }}})
+      {{#if ../admin}}
+      &ndash; <small><a href="/answers/{{{ this.id }}}">answers</a> <a href="/admin/lec/{{{ this.id }}}">admin</a></small>
+      {{/if}}
+    </li>
+  {{/each}}
+  </ol>
+
+  {{#if ../admin}}
+  <hr />
+  Admin: <a href="/admin/lec/add">add meeting</a>
+  {{/if}}
+{{/inline}}
+{{~> (parent)~}}

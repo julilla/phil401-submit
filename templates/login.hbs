@@ -1,0 +1,24 @@
+{{#*inline "page"}}
+  <h2>Welcome to the {{{ CLASS_ID }}} submission system!</h2>
+
+  <h5>Generate API key:</h5>
+  <form action="/apikey/generate" method="post" accept-charset="utf-8">
+    <label>Your email address:
+      <p>
+      <input type="email" placeholder="Enter email" name="email" />
+      </p>
+    </label>
+    <input type="submit" class="btn btn-primary" value="Submit">
+  </form>
+
+  <h5>Log in with API key</h5>
+  <form action="/apikey/check" method="post" accept-charset="utf-8">
+    <label>Your API key:
+      <p>
+      <input name="key" />
+      </p>
+    </label>
+    <input type="submit" class="btn btn-primary" value="Submit" />
+  </form>
+{{/inline}}
+{{~> (parent)~}}
